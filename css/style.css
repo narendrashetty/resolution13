@@ -15,7 +15,7 @@ body {
 	font-size: 30px;
 	font-size: 3rem;
 	text-align: center;
-	background-color: #000;
+	background-color: #000F29;
 	color: #fff;
 }
 
@@ -118,6 +118,8 @@ code {
 	color: #222438
 }
 
+
+
 #powered {
 	font-weight: bold;
 	padding-bottom: 20px;
@@ -174,6 +176,18 @@ code {
 	letter-spacing: 2px;
 }
 
+#venue {
+	width: 55%;
+	font-size: 30px;
+	font-size: 3rem;
+	margin: 0 auto;
+	text-align: left;
+	font-style: italic;
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 2px;
+	margin-top: 100px;
+}
+
 #cmr {
 	font-size: 50px;
 	font-size: 5rem;
@@ -182,6 +196,13 @@ code {
 	font-family: 'Mouse Memoirs', sans-serif;
 	letter-spacing: 2px;
 	margin-bottom: 50px;
+}
+
+#logo {
+	position: fixed;
+	top: 100px;
+	left: 200px;
+	padding: 5px 10px;
 }
 
 .twitter-follow-button {

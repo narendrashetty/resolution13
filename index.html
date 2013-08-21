@@ -21,16 +21,19 @@
 	</a>
 	-->
 	<div id="header">
-		<a href="#howtouse" class="nav-button">Home</a>
-		<a href="#examples" class="nav-button">About</a>
-		<a href="#credits" class="nav-button">Events</a>
-		<a href="#credits" class="nav-button">Register</a>
-		<a href="#credits" class="nav-button">Contact</a>
+		<a href="#home" class="nav-button">Home</a>
+		<a href="#about" class="nav-button">About</a>
+		<a href="#events" class="nav-button">Events</a>
+		<a href="#register" class="nav-button">Register</a>
+		<a href="#contact" class="nav-button">Contact</a>
 	</div>
 
-	<div class="slide">
-		<div id="instructions">
+	<div class="slide" id="home">
+		<div id="instructions" id="home">
 			Use left/right arrow to change slides
+		</div>
+		<div id="logo">
+			<img src="img/logo.png" width="100px"/>
 		</div>
 		<p id="cmr">
 			CMR Institute Of Technology<br />Department Of MCA
@@ -39,15 +42,40 @@
 		<p id="author">
 			27th September
 			</p>
-	<!--	
-	<div class="slide" id="howtouse">
-		<h1>How to Use</h1>
-		<p>Build a web page with each slide as a div.
-			<small class="pro-tip">Pro-Tip: <a href="http://responsivenews.co.uk/post/13925578846/fluid-grids-orientation-resolution-independence">Use rem&rsquo;s</a> to make content scale <br />(resize this window to see)</small>
-		</p>
+			<!--
+			<p id="venue">
+			Venue :<br />
+			CMR Institute Of Technology<br />
+#132 AECS Layout, IT Park Road<br />
+Bangalore - 560 037
+			</p>
+			-->
+</div>
+	<div class="slide" id="about">
+<p id="cmr">
+			About Us
+			</p>
 	</div>
-
-
+	
+		<div class="slide" id="events">
+<p id="cmr">
+			Events
+			</p>
+	</div>
+	
+		<div class="slide" id="register">
+<p id="cmr">
+			Register
+			</p>
+	</div>
+	
+		<div class="slide" id="contact">
+<p id="cmr">
+			Contact
+			</p>
+	</div>
+	
+<!--
 	
 	<div class="slide" id="examples">
 		<div class="container">
@@ -80,7 +108,7 @@
 			
 			// add other animations using the scrolldeck.controller (see Scrollorama plugin)
 			console.log(deck.controller);
-			deck.controller.animate('#instructions',{ duration: 100, property:'opacity', end: 0 });
+			deck.controller.animate('#instructions,#logo',{ duration: 100, property:'opacity', end: 0 });
 		  
 	  });
 	</script>
