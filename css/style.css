@@ -185,7 +185,6 @@ code {
 	font-style: italic;
 	font-family: 'Mouse Memoirs', sans-serif;
 	letter-spacing: 2px;
-	margin-top: 100px;
 }
 
 #cmr {
@@ -199,10 +198,12 @@ code {
 }
 
 #logo {
-	position: fixed;
-	top: 100px;
-	left: 200px;
+	top: 127px;
+	left: 250px;
 	padding: 5px 10px;
+	width:100px;
+	float: left;
+	margin: 0 auto;
 }
 
 .twitter-follow-button {
