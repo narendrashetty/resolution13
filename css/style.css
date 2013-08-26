@@ -12,12 +12,13 @@
 
 body {
 	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-	font-size: 30px;
-	font-size: 3rem;
+	font-size: 13px;
 	text-align: center;
 	background-color: #000F29;
 	color: #fff;
 }
+
+
 
 h1 {
 	font-size: 180px;
@@ -41,6 +42,7 @@ a, a:visited {
 	font-weight: bold;
 	font-style: italic;
 	text-shadow: none;
+	text-decoration:none;
 }
 
 small {
@@ -177,9 +179,17 @@ code {
 }
 
 #venue {
-	width: 55%;
+	width: 85%;
 	font-size: 30px;
 	font-size: 3rem;
+	margin: 0 auto;
+	text-align: left;
+	font-style: italic;
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 2px;
+}
+.contact {
+	width: 500px;
 	margin: 0 auto;
 	text-align: left;
 	font-style: italic;
@@ -517,8 +527,12 @@ code {
 .rules {
 	color:#fff;
 	font-size:16px;
-	font-family: verdana;
 	text-align:left;
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 	line-height: 21px;
+}
+
+.rules_text {
+	font-size: 30px;
 }
 

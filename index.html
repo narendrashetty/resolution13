@@ -4,9 +4,9 @@
 	<meta charset="utf-8"> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<title>Resolution '13</title>
-	
 	<link rel="stylesheet" href="css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	
 	<script src="js/jquery-1.8.2.min.js"></script>
 	<script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
@@ -15,6 +15,8 @@
 	<script src="js/jquery.scrolldeck.js"></script>
 	<script src="js/modernizr.custom.79639.js"></script>
 	<script src="js/jquery.bpopup.min.js"></script>
+			<script src="js/bootstrap.js"></script>
+		<script src="js/resolution.js"></script>
 </head>
 <body>
 <!--
@@ -31,9 +33,6 @@
 	</div>
 
 	<div class="slide" id="home">
-		<div id="instructions" id="home">
-			Use left/right arrow to change slides
-		</div>
 		<div id="logo">
 			<img src="img/logo.png" width="100px"/>
 		</div>
@@ -76,7 +75,7 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 			<ul class="ch-grid">
 					<li>
 						<div class="ch-item ch-img-1">	
-						<a href="#events" id="btn" data-event="ice">
+						<a href="#events" class="btn1" data-event="ice">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-1"></div>
@@ -89,7 +88,8 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-2">				
+						<div class="ch-item ch-img-2">			
+						<a href="#events" class="btn1" data-event="web">						
 							<div class="ch-info-wrap">
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-2"></div>
@@ -98,10 +98,12 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">				
+						<div class="ch-item ch-img-3">		
+							<a href="#events" class="btn1" data-event="quiz">						
 							<div class="ch-info-wrap">
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-3"></div>
@@ -110,90 +112,105 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-4">				
+						<div class="ch-item ch-img-4">			
+						<a href="#events" class="btn1" data-event="paper">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-4"></div>
-									<div class="ch-info-back">
-										<h3>taxi</h3>
-									</div>	
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-5">				
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-5"></div>
 									<div class="ch-info-back">
 										<h3>Unleash your Idea</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-6">				
+						<div class="ch-item ch-img-5">		
+						<a href="#events" class="btn1" data-event="hdr">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-6"></div>
+									<div class="ch-info-front ch-img-5"></div>
 									<div class="ch-info-back">
 										<h3>HDR</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-7">				
+						<div class="ch-item ch-img-6">			
+						<a href="#events" class="btn1" data-event="coding">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-7"></div>
+									<div class="ch-info-front ch-img-6"></div>
 									<div class="ch-info-back">
 										<h3>Huffman Coding</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-8">				
+						<div class="ch-item ch-img-7">		
+						<a href="#events" class="btn1" data-event="it">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-8"></div>
+									<div class="ch-info-front ch-img-7"></div>
 									<div class="ch-info-back">
 										<h3>Algorithm Manager</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-9">				
+						<div class="ch-item ch-img-8">	
+						<a href="#events" class="btn1" data-event="hunt">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-9"></div>
+									<div class="ch-info-front ch-img-8"></div>
 									<div class="ch-info-back">
 										<h3>Hunt & Kill</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-10">				
+						<div class="ch-item ch-img-9">	
+						<a href="#events" class="btn1" data-event="dumb">							
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-10"></div>
+									<div class="ch-info-front ch-img-9"></div>
 									<div class="ch-info-back">
 										<h3>Backward Induction</h3>
 									</div>	
 								</div>
 							</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item ch-img-10">		
+						<a href="#events" class="btn1" data-event="gaming">							
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-10"></div>
+									<div class="ch-info-back">
+										<h3>Nash Equilibrium</h3>
+									</div>	
+								</div>
+							</div>
+							</a>
 						</div>
 					</li>
 				</ul>
@@ -201,11 +218,80 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 	</div>
 		<div class="slide" id="register" style="top:2317px!important;">
 <p id="cmr">
-			Register
+			Register<p><a href="#register" id="rules_link" style="">General Rules</a></p>
 			</p>
+			<div id="general_rules" style="display: none;color: #eee;font-size: 14px;">
+					<p>
+						* All participants should report to registration/reception desk at the venue on 14th September at 08:00 AM.
+					</p>
+					<p>
+						* Authorization letter from college is mandatory.
+					</p>
+					<p>
+						* College ID’s of all team members is compulsary.
+					</p>
+					<p>
+						* Registration fee : Rs. 100/- per member.
+					</p>
+					<p>
+						* College won’t be responsible for any untoward incidents happening.
+					</p>
+					<p>
+						* Misbehaviour of the participants inside the campus will not be tolerated and could lead to disqualification of team.
+					</p>
+				</div>
+				<div class="contact">
+					<form class="form-horizontal" id="register_form" method="POST" action="response/entries.php?option=create">
+					<div class="control-group" id="js_messages">
+					<center><span id="no_college" style="display: none;"></span></center>
+					<div class="controls">
+					</div>
+				  </div>
+				  <div class="control-group">
+					<label class="control-label" for="inputEmail">College Name: </label>
+					<div class="controls">
+					 <input type="text" autocomplete="off" id="college_name" name="college_name" placeholder="College Name" class="span3" style="margin: 0 auto;text-align:left;" data-provide="typeahead" data-items="4" data-source='["Christ University","Kristu Jayanthi College","Al-Ameen College","BMS Institute of Technology","BMS College of Engineering","NMKRV - Jayanagar","Bangalore Institute of Technology","SSMRV - Jayanagar","Surana college","Jain College - V.V. Puram","Jain College - J.C. Road","Jyothi Nivas College","Alliance College","AMC Engineering College","T. John Institute of Technology","PES Institute of Technology","R.V. College of Engineering","Rajarajeshwari College","Ambedkar College - Mysore Road","Bangalore City College","Indian Academy","CMR Institute of Management Studies","Hasnath College","Indo Asian Academy","Garden City College","East Point College","Dayananda Sagar College - VTU","Dayananda Sagar College - BU","MES College","M.S. Ramaiah Institute of Technology","East West College","KLE Soceity","Vivekananda College - Rajajinagar","Sir M. Visvesvaraya Institute of Technology","Reva Institute for Engineering and Technology","NITTE Meenakshi Institute of Technology","MVJ College of Engineering","New Horizon College of Engineering","Mount Carmel College","Acharya Institute of Technology","Bapuji Institute of Technology","Cambridge Institute of Technology","Alpha College of Engineering","KNS Institute of Technology","Oxford College of Engineering","PES School of Engineering","RNS Institute of Technology","SJC Institute of Technology","Sambhram Institute Of Technology","SCT Institute of Technology"]'>
+					</div>
+				  </div>
+				  <div class="control-group" style="display: none;" id="students_block">
+					<label class="control-label" for="inputPassword">Add Participants: </label>
+					<div class="controls">
+					  <select id="no_students">
+					  <option value="">--Select--</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+					  </select>
+					</div>
+				  </div>
+				   <div class="control-group" id="student_name_fields">
+
+				  </div>
+				 <div class="control-group">
+
+					<div class="controls">
+
+					</div>
+				  </div>
+				  <input type="submit" id="register_btn" class="btn btn-success" value="Submit &raquo;" style="float:right;"/>
+				</form>
+				</div>
 	</div>
 	
-		<div class="slide" id="contact">
+		<div class="slide" id="contact" style="top:5000px!important;">
 <p id="cmr">
 			Contact
 			</p>
@@ -247,17 +333,48 @@ Resolution '12 provides an excellent arena to showcase the talents of  young & e
 		  
 	  });
     ;(function($) {
+
+         // DOM Ready
         $(function() {
-            $('#btn').bind('click', function(e) {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.btn1').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
                 e.preventDefault();
-                $('#pop').bPopup({
-                    appendTo: 'form'
-                    , zIndex: 2
-                    , modalClose: true
-                });
+				var eve=$(this).attr('data-event');
+				switch(eve)
+				{
+					case  "ice" :
+			   $("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'>*	This is the Ice Breaker event<br>* Colleges aiming for overall trophy must take part<br>* All participants of the college must be involved<br>* Props not allowed<br>*  Any kind of vulgarity will lead to disqualification<br>* Time limit : 4 + 1 minutes<br><br>Start Time: 10:00 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Namita : +91 9902 76 5929</p>"); break;
+					case  "web" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'>* Max. 2 teams per college and 2 members per team<br>* Prelims : [30 mins]<br>- Basic HTML and CSS should be used<br>- Question is given on spot<br>- Coding should be done in Notepad<br>* Finals : [1hr 15mins]<br>- Html, CSS, Javascript should be used<br>- Question and Images are given on spot<br>- Dreamweaver CS5, GIMP, Photoshop CS5	and jQuery library are provided<br>* Use of Internet and any kind of storage devices is not allowed<br>* Decision of the judge is considered to be final<br><br>Start Time: 11:00 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Arun 			 	 : +91 9738 08 0932 <br>Karthik S M	 : +91 9986 62 7349</p>"); break;
+					case  "coding" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'>* Max. 2 teams per college and 2 members per team<br>* Prelims :<br>	- 40 mins time limit, 30 Questions<br>* Finals : <br>	- 1 hour time limit, 3 or 4 Questions<br>* Decision of the judge is considered to be final<br><br>Start Time: 11:30 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Suprith     : 	+91 9964 04 4174<br>Obaidulla : +91 9886 38 2484</p>"); break;
+					case  "photo" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 2 teams per college and 1 member per team<br>* Any camera above 2 Mega pixels can be used<br>* Themes are provided on spot<br>* 3 pics should be submitted on the theme selected<br>* Only Brightness and contrast can be adjusted, no effects should be added<br>* Pics can be submitted either in a CD or a Pen Drive<br>* Decision of the judge is considered to be final<br><br>Start Time: 11:30 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Tiju    : +91 9986 43 6068<br>Rahul : +91 8147 75 3238</p>"); break;
+					case  "hunt" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 2 teams per college and 2 members per team<br>* Event will be of one round<br>* Treasure hunt within the computer<br>* 45 mins time limit<br>* Decision of the judge is considered to be final<br><br>Start Time: 12:00 PM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Ramakrishna : +91 9538 11 4711<br>Manjunath	: +91 8867 45 3679 </p>"); break;
+					case  "it" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 2 participants per college<br>* Event will be of 4 rounds<br>* Round 1 : Pick 'n' Speak<br>* Round 2 : Creative Writing<br>* Round 3 : Group Discussion<br>* Round 4 : Stress Interview<br>* Decision of the judge is considered to be final<br><br>Start Time: 11:30 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Naveen : +91 9036 95 1203<br>Jisha	  	:  +91 9964 09 0096</p>"); break;
+					case  "paper" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 2 teams per college and 2 members per team<br>* Topic of your own choice(open source preferred) <br>* Soft Copy of papers should be sent by E-mail<br>* An acknowledgement mail will be sent if the paper is selected<br>* The ppt's should also be sent by E-mail on or before the event date<br>* Decision of the judge is considered to be final<br>E-mail : resolution.cmrit@gmail.com<br><br>Start Time: 10:00 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Supreetha : +91 9901 62 9093<br>Madhuri    : +91 9845 72 9775</p>"); break;
+					case  "gaming" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * NFS Most Wanted :<br>	- 5 teams per college, 1 member per team<br>	- Knock-out Match<br><br>* Counter Strike : <br>- 1 team per college and 4 members per team<br>- Knock-out Match<br><br>* Decision of the judge is considered to be final<br><br>Start Time: 01:00 PM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Ujwal (CS)		 	: +91 9686 62 0314<br>Deanish (NFS)	: +91 8904 29 5861</p>"); break;
+					case  "dumb" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 2 teams per college and 3 members per team<br>* Event will be of 3 rounds<br>* Round 1 : Prelims<br>* Round 2 : Semi Finals<br>* Round 3 : Finals<br>* All Dumb Charades rules apply (No Word splitting, no lip movement etc)<br>* Decision of the judge is considered 	to be final<br><br>Start Time: 01:00 PM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Shashank   	: +91 9686 24 7855<br>Jijo : +91 7795 34 9802</p>"); break;
+					case  "quiz" :
+					$("#pop").html("<h3 class='rules_text'> Rules: </h3><p class='rules'> * Max. 3 teams per college and 2 members per team<br>* Round 1: Written (Prelims)<br>* Round 2: Stage Event (Finals)<br>* Tie-Breaker to resolve a tie<br>* Use of laptops, mobiles or other electronic devices is strictly prohibited<br>* Decision of the Quiz Master is considered to be final<br><br>Start Time: 11:15 AM</p><hr><h4 class='rules_text'>Student Co-ordinators: </h4><p class='rules'>Krishna    : +91 8904 85 3975<br>Karthik R  : +91 7259 70 4449</p>"); break;
+			   }
+                // Triggering bPopup when click event is fired
+                $('#pop').bPopup();
+
             });
-         });
-     })(jQuery);
+
+        });
+
+    })(jQuery);
 	</script>
 
 	<div id="pop">Content of popup</div>
