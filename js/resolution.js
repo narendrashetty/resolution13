@@ -40,8 +40,8 @@ $("#college_name").live("change",function(){
 				});
 			}
 
-			$("#register_form").submit(function(){
-				event.preventDefault();
+			$("form#register_form").submit(function(){
+				return false;
 			});
 
 			setInterval(function() {
@@ -73,16 +73,19 @@ $("#college_name").live("change",function(){
 					$("#college_name").focus();
 				}
 				else{
-					$("#register_form").ajaxForm({
+					$("#register_form").ajaxSubmit({
 						dataType: 'json',
 						success: function(data){
 							if(data.status){
 								get_attendees();
 								$("#student_name_fields").html('').fadeOut(500)
 								$("#register_form")[0].reset();
+								$("#pop").html("<span style='font-size: 150%;'>You have regiestered for participation successfully. Thank You!</span>")
+								$('#pop').bPopup();
 							}
 							else{
-								$("#js_messages").html('<span class="alert alert-danger span6" style="margin-top: -10px;"><button type="button" class="close" data-dismiss="alert">&times;</button><center>There was an error, make sure all details are filled</center></span>').fadeIn(500);
+								$("#pop").html('<span style="font-size: 150%;">There was an error, make sure all details are filled!</span>');
+								$("#pop").bPopup();
 							}
 						},
 						error: function(err){
@@ -99,5 +102,5 @@ $("#college_name").live("change",function(){
 			$("#pop").html("<p class='rules'>* All participants should report to registration/reception desk at the venue on 14th September at 08:00 AM.</p><p class='rules'>* Authorization letter from college is mandatory.</p><p class='rules'>* College ID’s of all team members is compulsary.</p><p class='rules'>* Registration fee : Rs. 100/- per member.</p><p class='rules'>* College won’t be responsible for any untoward incidents happening.</p><p class='rules'>* Misbehaviour of the participants inside the campus will not be tolerated and could lead to disqualification of team.</p>");
 				$('#pop').bPopup();
 			});
-			
+
 });
