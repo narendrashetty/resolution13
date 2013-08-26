@@ -188,6 +188,17 @@ code {
 	font-family: 'Mouse Memoirs', sans-serif;
 	letter-spacing: 2px;
 }
+
+#contact-sub {
+	width: 55%;
+	font-size: 30px;
+	font-size: 3rem;
+	margin: 0 auto;
+	text-align: left;
+	font-style: italic;
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 2px;
+}
 .contact {
 	width: 500px;
 	margin: 0 auto;
