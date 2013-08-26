@@ -3,7 +3,7 @@ $("#no_students").live("change",function(){
 				var no_stu=$(this).val();
 				$("#student_name_fields").html('');
 				for(var i=1;i<=no_stu;i++){
-					$("#student_name_fields").append("<label class='control-label' for='inputPassword'>Student "+i+": </label><div class='controls'><input type='text' name='students[]' id='student["+i+"]' placeholder='Student Name'></div>");
+					$("#student_name_fields").append("<label class='control-label' for='inputPassword'>Student "+i+": </label><div class='controls'><input type='text' required='required' name='students[]' id='student["+i+"]' placeholder='Student Name'></div>");
 				}
 				$("#student_name_fields").fadeIn(500);
 			});
