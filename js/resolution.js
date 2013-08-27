@@ -20,7 +20,6 @@ $("#college_name").live("change",function(){
 					$("#students_block").fadeOut(500);
 					$("#register_btn").attr("disabled",true);
 				}
-				get_attendees();
 				$("#no_college").html(msg).fadeIn(500);
 				return false;
 			});
@@ -77,7 +76,6 @@ $("#college_name").live("change",function(){
 						dataType: 'json',
 						success: function(data){
 							if(data.status){
-								get_attendees();
 								$("#student_name_fields").html('').fadeOut(500)
 								$("#register_form")[0].reset();
 								$("#pop").html("<span style='font-size: 150%;'>You have regiestered for participation successfully. Thank You!</span>")
