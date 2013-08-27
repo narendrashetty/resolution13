@@ -1,6 +1,6 @@
-# Create a new file called config.php in functions/ and dump and change the following settings
-
 <?php
+
+	# Create a new file called config.php in functions/ and dump and change the following settings
 
 	$host = ""; # MySQL hostname; default: localhost
 	$user = ""; # MySQL username; default: root
